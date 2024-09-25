@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*Nesta parte aqui temos o reset de página*/
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: -o-linear-gradient(blue, white);
+    background-color: #e1ecd6;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    text-align: center;
+    height: 250px;
+    background-color: #7cd7cf
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    height: 30px;
+    background-color: #eedbbb
+}
+
+#iconenav {
+    margin-left: 10px;
+    margin-bottom: -5px;
+    height: 27px;
+    width: 27px;
+}
+
+main {
+
+    height: auto;
+    background-color: #f3daaa
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #f3d5a5;
+    height: 75px;
+
+}
+
+#img {
+    width: 30%;
+    height: 30%;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container p {
+    align-items: flex-start;
+    text-align: justify;
+    flex: 1;
+}
+
+.container img {
+    width: auto;
+    margin-left: 7px;
+    margin-right: 20px;
+}
